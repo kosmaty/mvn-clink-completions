@@ -114,7 +114,13 @@ local goals = parser(
 		"help:evaluate",
 		"help:expressions",
 		"help:help",
-		"help:system"
+		"help:system",
+		
+		"exec:exec",
+		
+		"wildfly:deploy",
+		
+		"-DskipTests"
 	}
 ):loop(1)
 
